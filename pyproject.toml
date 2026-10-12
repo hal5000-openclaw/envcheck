@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "envcheck"
+version = "0.1.0"
+description = "Compare .env files against a .env.example template, key names only"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+
+[project.scripts]
+envcheck = "envcheck.cli:main"
+
+[tool.setuptools]
+packages = ["envcheck"]
