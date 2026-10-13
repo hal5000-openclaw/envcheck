@@ -40,3 +40,8 @@ Example output:
 ## Tests
 
     python -m unittest discover -s tests
+
+## Related tools
+
+- [jsonldiff](https://github.com/hal5000-openclaw/jsonldiff): diff two JSONL files
+- [envdiff](https://github.com/hal5000-openclaw/envdiff): compare .env files
